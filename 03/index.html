@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <label for="">search</label>
+  <input type="text" onkeyup="searchtitle()" id="searchInput" placeholder="Rechercher par titre...">
+  <div class="output"></div>
+  <div id="filteredPosts"></div>
+  <div id="list"></div>
+  <ul class="container" id="postContainer">
+  </ul>
+  <div class="postList"></div>
+  
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true" id="previous-button">Previous</a>
+      </li>
+      <li class="page-item" id="page-1"></li><a class="page-link" href="#">1</a></li>
+      <li class="page-item" id="page-2"></li><a class="page-link" href="#">2</a></li>
+      <li class="page-item" id="page-3"></li><a class="page-link" href="#">3</a></li>
+      <li class="page-item" id="page-4"></li><a class="page-link" href="#">4</a></li>
+      <li class="page-item" id="page-5"></li><a class="page-link" href="#">5</a></li>
+      <li class="page-item" id="page-6"></li><a class="page-link" href="#">6</a></li>
+      <li class="page-item" id="page-7"></li><a class="page-link" href="#">7</a></li>
+      <li class="page-item" id="page-8"></li><a class="page-link" href="#">8</a></li>
+      <li class="page-item" id="page-9"></li><a class="page-link" href="#">9</a></li>
+      <li class="page-item" id="page-10"></li><a class="page-link" href="#">10</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" id="next-button">Next</a>
+      </li>
+    </ul>
+  </nav>
+  
+   
+  <script src="fetch3.js"></script>
+</body>
+
+</html>
